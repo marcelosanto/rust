@@ -1,4 +1,4 @@
-fn main() {
+fn variaveis() {
     //variaveis em rust são imutaveis
     //Shadowing
     let name = "Marcelo";
