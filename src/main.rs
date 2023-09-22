@@ -11,12 +11,12 @@ fn main() {
     let mut soma = 0;
 
     while x != 0 {
-        let mut r = x % 10;
+        let r = x % 10;
         soma += r;
         x = x / 10;
     }
 
-    println!("O resultado da soma é {}", soma)
+    println!("O resultado da soma dos digitos é {}", soma)
 }
 
 fn convert_to_int(data_input: &String) -> i32 {
