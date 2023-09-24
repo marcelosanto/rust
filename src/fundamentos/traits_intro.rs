@@ -24,4 +24,12 @@ impl Voz for Pessoa {
     }
 }
 
-fn main() {}
+fn main() {
+    let eu = Pessoa {
+        name: String::from("Marcelo"),
+        idade: 32,
+    };
+
+    eu.falar();
+    println!("eu tenho voz: {}", eu.tem_voz());
+}
