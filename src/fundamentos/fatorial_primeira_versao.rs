@@ -18,7 +18,7 @@ fn main() {
     println!("O Fatorial do {} é {}", number, y)
 }
 
-fn convert_to_int(data_input: &String) -> i64 {
-    let x = data_input.trim().parse::<i64>().unwrap();
+fn convert_to_int(data_input: &String) -> BigUint {
+    let x = data_input.trim().parse::<BigUint>().unwrap();
     x
 }
